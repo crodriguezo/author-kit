@@ -26,7 +26,7 @@
 \def\confYear{2025}
 
 %%%%%%%%% TITLE - PLEASE UPDATE
-\title{\LaTeX\ Author Guidelines for \confName~Proceedings}
+\title{With a Little Help From My friends: \\ Exploiting Diversity of Multiple CLIP Backbones for Collaborative Training}
 
 %%%%%%%%% AUTHORS - PLEASE UPDATE
 \author{First Author\\
@@ -48,15 +48,24 @@ First line of institution2 address\\
 \begin{document}
 \maketitle
 \input{sec/0_abstract}    
-\input{sec/1_intro}
-\input{sec/2_formatting}
-\input{sec/3_finalcopy}
+\input{sec/1_intro} 
+\input{sec/2_related_work}
+\input{sec/3_method}
+
+\input{sec/4_experiments}
+
+\input{sec/5_conclusion}
+
+
 {
     \small
     \bibliographystyle{ieeenat_fullname}
     \bibliography{main}
 }
 
+\clearpage
+\appendix
+\input{sec/X_suppl}
 % WARNING: do not forget to delete the supplementary pages from your submission 
 % \input{sec/X_suppl}
 
